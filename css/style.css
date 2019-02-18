@@ -1,0 +1,25 @@
+#main{
+  background-color: #6d0202;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.container{
+  text-align: center;
+  background-color: #fffff5;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+#form {
+  width: 50%;
+}
+
+.justify-paragraph{
+  text-align: justify;
+}
+
+.fas{
+  color: #6d0202;
+}

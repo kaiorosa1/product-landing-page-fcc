@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Product Landing Page (FCC) </title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<!-- add bootstrap -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<!-- add font awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+
+<header id="header">
+
+  <!--   navbar -->
+  <nav id="nav-bar" class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+    <a class="navbar-brand" href="#"> 
+      <img id="header-img" src="https://cdn3.iconfinder.com/data/icons/letters-and-numbers-1/32/letter_M_red-256.png" width="30" height="30" alt="">Mucity
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#link-1">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#link-2">Why Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#link-3">Prices</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+<div id="main">
+<div class="container p-5">
+  <h1 class="pt-3"> STREAM WITH MUCITY</h1>
+  <!--   User Story #6: I can watch an embedded product video with id="video". -->
+  <div class="flex-container">
+    <iframe id="video" width="727" height="409" src="https://www.youtube.com/embed/Qgy6LaO3SB0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <!-- My landing page has a form element with a corresponding id="form". -->
+  <div class="p-2 ">
+    <h3>Wanna know more about this ?</h3>
+    <p>Subscribe to our newsletter!!</p>
+    <div class="flex-container">
+      <form id="form" class="input-group" action="https://www.freecodecamp.com/email-submit" name="form">
+        <label class="input-group-text">Email:</label>
+        <input class="form-control" id="email" name="email" type="email" placeholder="email@somewhere.com">
+        <input class="btn btn-danger input-group-append" id="submit" name="submit" type="submit">
+      </form>
+    </div>
+  </div>
+  <hr>
+  <h2 id="link-1"><i class="fas fa-music"></i> About <i class="fas fa-music"></i></h2>
+<div class="justify-paragraph">
+  <p >MUCITY is a growing stream platform where you can find the lastest music and also get the best recommendation. We created this platform because we know how hard is to find good music after a while. So we created and perfected a brand new platform.</p>
+</div>
+  <h2 id="link-2"><i class="fas fa-headphones"></i> Why us? <i class="fas fa-headphones"></i></h2>
+<div class="justify-paragraph">
+  <p>We have the BEST music recommendation, our team has been working on this technology for a long time to provide you with the best!! </p>
+  
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam perspiciatis iusto inventore delectus? Error, facilis nostrum modi numquam fugit soluta non, quibusdam similique itaque, ex harum sapiente suscipit consequuntur amet!</p>
+  
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam perspiciatis iusto inventore delectus? Error, facilis nostrum modi numquam fugit soluta non, quibusdam similique itaque, ex harum sapiente suscipit consequuntur amet!</p>
+  </div>
+  <h2 id="link-3"><i class="fas fa-dollar-sign"></i> Prices <i class="fas fa-dollar-sign"></i></h2>
+  <div>
+    <p>We have a lot of plans that can fit your needs!</p>
+    <div> 
+    <p>Check Out Our Monthly Plans Below:</p>
+    <div>
+      <a class="btn btn-primary btn-block" role="button" href="#">Basic</a>
+    </div>
+    <div>
+      <a class="btn btn-secondary btn-block" href="#">Premium</a>
+    </div>
+    <div>
+      <a class="btn btn-success btn-block" href="#">Ultra</a>
+    </div>
+
+  </div>
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+  </div>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
